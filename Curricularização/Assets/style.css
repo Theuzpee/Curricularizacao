@@ -103,11 +103,6 @@ footer {
     width: 25px;
 }
 
- 
-
-
-
-
 .titulo-pet {
   background-color: #a694c7;
       color: white;
@@ -121,7 +116,20 @@ footer {
       margin-bottom: 12px;
 }
 
+.caes {
+     margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
 
+p {
+background-color: #c3b3db;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    line-height: 1.6;
+}
 
 
 img {
@@ -131,7 +139,8 @@ img {
       overflow: hidden;
       max-width: 500px; 
       margin-bottom: 24px;
-      
+      display: flex;
+      justify-content:center ;
 }
 
   .imagem-container {
@@ -156,10 +165,10 @@ img {
       padding: 16px 20px;
       max-width: 540px;
       display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
+      justify-content: center;
       gap: 20px;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      margin: 20px 0;
  }
 
 .botao-pet {
@@ -186,3 +195,18 @@ img {
       align-items: flex-end;
       gap: 10px;
     }
+
+.corpo-da-pagina {
+     margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.texto {
+
+    padding: 20px;
+    min-height: 150px;
+    border-radius: 10px;
+    font-size: 18px;
+text-align: center;
+}
