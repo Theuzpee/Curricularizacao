@@ -24,8 +24,10 @@ header {
 
   & .navegacao-header a:hover {
     color: #ffd700;
+    text-decoration: underline;
   }
 }
+
 .header {
     background-color: #FFFFFF; 
     padding: 15px 0;

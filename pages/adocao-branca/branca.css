@@ -1,0 +1,5 @@
+body {
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #f4b100 0 40%, #001f60 40% 100%);
+}
