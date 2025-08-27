@@ -1,33 +1,3 @@
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 2.5rem;
-
-  & .logo img {
-    height: 4rem;
-  }
-
-  & .navegacao-header {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-  }
-
-  & .navegacao-header a {
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-    font-weight: 500;
-    transition: 0.3s;
-  }
-
-  & .navegacao-header a:hover {
-    color: #ffd700;
-    text-decoration: underline;
-  }
-}
-
 .header {
     background-color: #FFFFFF; 
     padding: 15px 0;
