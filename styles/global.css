@@ -5,35 +5,16 @@
 }
 
 :root {
-    --primary-color: #0D2847;
-    --secondary-color: #F8F8F8;
-    --accent-color: #3B82F6;
-    --text-color: #333;
-    --card-bg: #FFFFFF;
-    --body-bg: #EFEFEF;
-    --font-family: 'Poppins', sans-serif;
-}
-
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  --primary-color: #0D2847;
+  --secondary-color: #F8F8F8;
+  --accent-color: #3B82F6;
+  --text-color: #333;
+  --card-bg: #FFFFFF;
+  --body-bg: #EFEFEF;
+  --font-family: 'Poppins', sans-serif;
 }
 
 body {
-    font-family: var(--font-family );
-    background-color: var(--body-bg);
-    color: var(--text-color);
-    
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-a {
-    color: var(--primary-color);
-    text-decoration: none;
+  height: 100vh;
+  font-family: var(--font-family);
 }
