@@ -1,14 +1,4 @@
 #pets-header {
-<<<<<<< HEAD
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2.5rem;
-    background-color: white;
-
-    & .pets-logo img {
-        height: 4rem;
-=======
     & .pets-navigation-header a {
         text-decoration: none;
         color: #001f60;
@@ -19,9 +9,9 @@
 
     & .pets-navigation-header a:hover {
         color: #ffd700;
->>>>>>> 0707f58d578f94e9daa60d672c61cc84cbae75cc
     }
 }
+
 #pets-main {
     & .pets-section {
         padding: 3.75rem 0;
