@@ -8,7 +8,7 @@
 }
 
 /* Seção principal - adaptada de .pet-profile-section */
-.main-content-section {
+.main {
     padding: 60px 0;
 }
 
@@ -41,7 +41,7 @@ main h1::after {
     transform: translateX(-50%);
     width: 100px;
     height: 4px;
-    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    background-color: #2c5aa0;
     border-radius: 2px;
 }
 
@@ -71,7 +71,6 @@ main h2 {
 }
 
 main h2::before {
-    content: '🐾';
     margin-right: 10px;
 }
 
@@ -90,7 +89,6 @@ main h2::before {
     border-radius: 15px;
     text-align: left;
     position: relative;
-    border: 2px solid transparent;
     transition: all 0.3s ease;
     line-height: 1.6;
     color: var(--text-color);
@@ -103,11 +101,8 @@ main h2::before {
 }
 
 /* Estilo para cada card MVV */
-.mvv p:nth-child(1) {
-    background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
-}
 
-.mvv p:nth-child(1)::before {
+.mvv p {
     content: '🎯 MISSÃO';
     display: block;
     font-weight: 700;
@@ -117,11 +112,11 @@ main h2::before {
     letter-spacing: 1px;
 }
 
-.mvv p:nth-child(2) {
-    background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);
+.mvv p {
+    background: #e5ef9c;
 }
 
-.mvv p:nth-child(2)::before {
+.mvv p {
     content: '👁️ VISÃO';
     display: block;
     font-weight: 700;
@@ -131,11 +126,7 @@ main h2::before {
     letter-spacing: 1px;
 }
 
-.mvv p:nth-child(3) {
-    background: linear-gradient(135deg, #fff3e0 0%, #ffcc02 100%);
-}
-
-.mvv p:nth-child(3)::before {
+.mvv p {
     content: '💎 VALORES';
     display: block;
     font-weight: 700;
@@ -154,18 +145,14 @@ main h2::before {
     flex-wrap: wrap;
 }
 
+
 .tag {
     background-color: var(--light-bg);
     padding: 15px 20px;
     border-radius: 10px;
     text-align: center;
     border: 2px solid transparent;
-    transition: all 0.3s ease;
-}
 
-.tag:hover {
-    border-color: var(--primary-color);
-    background-color: white;
 }
 
 .tag span {
@@ -185,7 +172,7 @@ main h2::before {
 }
 
 /* Botão de ação adaptado */
-.action-btn {
+.btn {
     width: 100%;
     background-color: var(--primary-color);
     color: white;
@@ -198,12 +185,11 @@ main h2::before {
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 0.3s ease;
+    transition: all 0.3s ;
     margin-top: 30px;
-    text-decoration: none;
 }
 
-.action-btn:hover {
+.btn:hover {
     background-color: var(--secondary-color);
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(44, 90, 160, 0.3);
