@@ -1,0 +1,56 @@
+/* css/header.css (AJUSTADO PARA O SEU HTML) */
+
+/* Usando o ID que você definiu: #pets-header */
+#pets-header {
+    display: flex;
+    justify-content: space-between; /* Empurra o logo e a nav para os lados */
+    align-items: center;           /* Alinha tudo verticalmente */
+    padding: 15px 40px;            /* Espaçamento interno (vertical e horizontal) */
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #EAEAEA;
+    width: 100%;
+}
+
+/* Usando a classe que você definiu: .pets-logo */
+.pets-logo a {
+    display: block; /* Garante que o link se comporte como um bloco */
+}
+
+.pets-logo img {
+    height: 45px; /* Define a altura do logo */
+    width: auto;  /* Largura automática para manter a proporção */
+}
+
+/* Usando a classe que você definiu: .navigation-header */
+.navigation-header {
+    display: flex;
+    align-items: center;
+    gap: 35px; /* Espaço entre os itens da navegação */
+}
+
+.navigation-header a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navigation-header a:hover {
+    color: #E6242D; /* Cor vermelha ao passar o rato */
+}
+
+/* Estilo específico para o botão "Adotar" */
+.navigation-header .btn-adotar {
+    background-color: var(--primary-color, #0D2847); /* Usa a variável global ou um fallback */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.navigation-header .btn-adotar:hover {
+    background-color: #E6242D; /* Muda para vermelho no hover */
+    color: white;
+}
