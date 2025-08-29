@@ -8,27 +8,7 @@
     & .pets-logo img {
         height: 4rem;
     }
-
-    & .pets-navigation-header {
-        display: flex;
-        align-items: center;
-        gap: 25px;
-
-    }
-
-    & .pets-navigation-header a {
-        text-decoration: none;
-        color: #001f60;
-        font-size: 1rem;
-        font-weight: 500;
-        transition: 0.3s;
-    }
-
-    & .pets-navigation-header a:hover {
-        color: #ffd700;
-    }
 }
-
 #pets-main {
     & .pets-section {
         padding: 3.75rem 0;

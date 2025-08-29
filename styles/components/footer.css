@@ -2,7 +2,9 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px;
+  flex-wrap: wrap; 
+  gap: 20px; 
+  padding: 30px 40px;
   background-color: #BBB2E0;
 }
 
@@ -10,8 +12,9 @@ footer {
   background-color: #333;
   color: #ccc;
   text-align: center;
-  padding: 30px 0;
+  padding: 30px 15px;
   margin-top: 120px;
+  line-height: 1.6; 
 }
 
 .footer p {
@@ -22,6 +25,11 @@ footer {
 
 .contato img {
   width: 35px;
+  transition: transform 0.2s ease-in-out; 
+}
+
+.contato img:hover {
+  transform: scale(1.1);
 }
 
 .redes-sociais {
@@ -30,16 +38,24 @@ footer {
 
 .redes-sociais img {
   width: 25px;
+  margin: 0 8px; 
+  transition: transform 0.2s ease-in-out;
+}
+
+.redes-sociais img:hover {
+  transform: scale(1.15);
 }
 
 .redes-sociais-interna {
   display: flex;
   align-items: center;
+  gap: 10px; 
 }
 
 .redes-sociais-interna a {
   text-decoration: none;
   color: antiquewhite;
+  transition: color 0.2s ease-in-out;
 }
 
 .redes-sociais-interna a:hover {

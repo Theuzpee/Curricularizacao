@@ -7,23 +7,22 @@ header {
   & .index-logo img {
     height: 4rem;
   }
-
-  & .index-navigation-header {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-
-  }
-
-  & .index-navigation-header a {
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-    font-weight: 500;
-    transition: 0.3s;
-  }
-
-  & .index-navigation-header a:hover {
-    color: #ffd700;
-  }
 }
+    .navigation-header {
+        display: flex;
+        align-items: center;
+        gap: 25px;
+
+    }
+
+    .navigation-header a {
+        text-decoration: none;
+        color: #001f60;
+        font-size: 1rem;
+        font-weight: 500;
+        transition: 0.3s;
+    }
+
+    .navigation-header a:hover {
+        color: #ffd700;
+    }
