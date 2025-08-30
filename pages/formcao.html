@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ACAPRA - Formulário de Adoção de Cão</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+
+  <header id="pets-header">
+    <div>
+      <a href="../index.html">
+        <img src="/assets/images/Logo-Acapra.png" alt="Logo Acapra Brusque">
+      </a>
+    </div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../pages/denuncie.html">Denuncie</a>
+      <a href="../pages/quem-somos.html">Sobre</a>
+      <a href="../pages/pets.html" class="btn-adotar">Adotar</a>
+    </nav>
+  </header>
+
+  <div class="main">
+    <main class="container">
+      <h1>Formulário de Adoção de Cão</h1>
+
+      <p>Preencha os campos abaixo com suas informações. Assim, poderemos conhecer melhor você e garantir que o cão seja
+        destinado a um lar responsável e cheio de carinho.</p>
+      <br><br>
+
+      <form id="adocaoCaoForm" action="" method="post">
+
+        <!-- DADOS PESSOAIS -->
+        <fieldset>
+          <legend>Dados Pessoais</legend>
+          <div class="group col-span-2">
+            <div class="group">
+              <label for="nome">Qual seu nome completo?</label>
+              <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="group">
+              <label for="telefone">Qual seu número para contato?</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="(DDD) 90000-0000" required>
+            </div>
+            <div class="group">
+              <label for="idade">Qual a sua idade?</label>
+              <input type="number" id="idade" name="idade" min="0" required>
+              <p class="hint">Se for menor de idade, os responsáveis devem responder o formulário!</p>
+            </div>
+            <div class="group">
+              <label for="renda">Qual a sua renda?</label>
+              <input type="text" id="renda" name="renda" placeholder="Ex.: R$ 2.500,00" required>
+            </div>
+            <div class="group col-span-2">
+              <label for="endereco">Qual seu endereço completo?</label>
+              <input type="text" id="endereco" name="endereco" placeholder="Rua, CEP, número da casa e referência"
+                required>
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- INTERESSE NA ADOÇÃO -->
+        <fieldset>
+          <legend>Interesse na Adoção</legend>
+          <div class="group col-span-2">
+            <div class="group">
+              <label for="animal_interesse">Qual animal você tem interesse em adotar?</label>
+              <input type="text" id="animal_interesse" name="animal_interesse"
+                placeholder="Ex.: Cão filhote, Cão adulto porte grande" required>
+            </div>
+            <div class="group">
+              <label>Todos da sua residência concordam com a adoção?</label>
+              <div class="radio-row">
+                <label><input type="radio" name="concordo_residencia" value="sim" required> Sim</label>
+                <label><input type="radio" name="concordo_residencia" value="nao"> Não</label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- SITUAÇÃO ATUAL COM ANIMAIS -->
+        <fieldset>
+          <legend>Situação Atual com Animais</legend>
+          <div class="group col-span-2">
+            <div class="group">
+              <label for="outros_animais">Você tem outros animais? Se sim, quantos e quais?</label>
+              <textarea id="outros_animais" name="outros_animais" placeholder="Ex.: 1 cachorro e 2 gatos"></textarea>
+            </div>
+            <div class="group">
+              <label>São castrados e vacinados?</label>
+              <div class="radio-row">
+                <label><input type="radio" name="castrados_vacinados" value="sim"> Sim</label>
+                <label><input type="radio" name="castrados_vacinados" value="nao"> Não</label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- RESIDÊNCIA -->
+        <fieldset>
+          <legend>Residência</legend>
+          <div class="group col-span-2">
+            <div class="group">
+              <label>Você mora em casa ou apartamento?</label>
+              <select name="tipo_moradia" required>
+                <option value="" selected disabled>Selecione</option>
+                <option>Casa</option>
+                <option>Apartamento</option>
+              </select>
+            </div>
+            <div class="group">
+              <label>Imóvel próprio ou alugado?</label>
+              <select name="posse" required>
+                <option value="" selected disabled>Selecione</option>
+                <option>Próprio</option>
+                <option>Alugado</option>
+              </select>
+            </div>
+            <div class="group col-span-2">
+              <label for="local_animal">Qual o local em que o animal irá ficar? Sua casa/apto possui espaço adequado e
+                cercado?</label>
+              <textarea id="local_animal" name="local_animal" required></textarea>
+            </div>
+            <div class="group">
+              <label>O animal terá acesso à rua?</label>
+              <div class="radio-row">
+                <label><input type="radio" name="acesso_rua" value="sim" required> Sim</label>
+                <label><input type="radio" name="acesso_rua" value="nao"> Não</label>
+                <label><input type="radio" name="acesso_rua" value="nao_sei"> Não sei</label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- COMPROMISSOS E RESPONSABILIDADES -->
+        <fieldset>
+          <legend>Compromissos e Responsabilidades</legend>
+          <div class="grid col-2">
+            <div class="group">
+              <label for="condicoes">Você tem condições físicas, mentais e financeiras de manter um animal?</label>
+              <textarea id="condicoes" name="condicoes" placeholder="Boa ração, veterinário, castração, passeios"
+                required></textarea>
+            </div>
+            <div class="group">
+              <label>A castração e vacinação do animal é OBRIGATÓRIA. Você concorda com isso?</label>
+              <div class="radio-row">
+                <label><input type="radio" name="concorda_obrigatorio" value="sim" required> Sim</label>
+                <label><input type="radio" name="concorda_obrigatorio" value="nao"> Não</label>
+              </div>
+            </div>
+            <div class="group">
+              <label>Existe uma taxa de adoção colaborativa de R$30,00. Você concorda em contribuir?</label>
+              <div class="radio-row">
+                <label><input type="radio" name="concorda_taxa" value="sim" required> Sim</label>
+                <label><input type="radio" name="concorda_taxa" value="nao"> Não</label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+
+        <!-- ENVIO DE DOCUMENTOS -->
+        <fieldset>
+          <legend>Envio de Documentos</legend>
+          <div class="grid col-2">
+            <div class="group">
+              <label for="documentos">Favor enviar os seguintes documentos:</label>
+              <ul>
+                <li>Foto do RG</li>
+                <li>Foto do comprovante de renda</li>
+                <li>Foto do local onde o animal irá ficar (terreno, casa, canil...)</li>
+                <li>Se tiver outros animais, foto dos mesmos e de suas carteiras de vacinação</li>
+              </ul>
+              <input type="file" id="documentos" name="documentos" multiple accept="image/*,application/pdf">
+              <p class="files-note">Até 15 arquivos, tamanho máximo recomendado de 10MB cada.</p>
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="actions">
+          <button type="reset" class="secondary">Limpar</button>
+          <button type="submit">Enviar formulário</button>
+        </div>
+
+      </form>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-text">
+        <p>&copy; 2025 ACAPRA. Todos os direitos reservados.</p>
+        <p>Adote com amor.</p>
+      </div>
+      <div class="redes-sociais">
+        <a href="https://wa.me/SEUNUMERODOWHATSAPP" target="_blank">
+          <img src="../assets/icons/whatsapp-logo.svg" alt="Logo do WhatsApp">
+        </a>
+        <a href="https://www.instagram.com/acaprabrusquesc/" target="_blank">
+          <img src="../assets/icons/instagram-logo.svg" alt="Logo do Instagram">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
