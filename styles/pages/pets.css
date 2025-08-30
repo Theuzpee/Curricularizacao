@@ -1,4 +1,5 @@
 #pets-header {
+<<<<<<< HEAD
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -8,6 +9,8 @@
     & .pets-logo img {
         height: 4rem;
         
+=======
+>>>>>>> origin/master-melado
     & .pets-navigation-header a {
         text-decoration: none;
         color: #001f60;

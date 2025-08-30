@@ -1,28 +1,49 @@
 .pet-profile-section {
+<<<<<<< HEAD
     padding: 3.75rem 0;
     background-color: #F8F9FA;
+=======
+    padding: 60px 0;
+    background-color: #F8F9FA; 
+>>>>>>> origin/master-melado
 }
 
 .profile-card {
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 1fr 1fr;
     gap: 3.75rem;
     background-color: #FFFFFF;
     padding: 2.5rem;
     border-radius: 1.25rem;
     box-shadow: 0 0.25rem 1.875rem rgba(0, 0, 0, 0.07);
+=======
+    grid-template-columns: 1fr 1fr; 
+    gap: 60px;                     
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.07); 
+>>>>>>> origin/master-melado
 }
 
 .profile-gallery .main-photo {
     width: 100%;
+<<<<<<< HEAD
     height: 57.5rem;
     object-fit: cover;
     border-radius: 1rem;
+=======
+    height: 920px;
+    object-fit: cover;
+    border-radius: 16px; 
+>>>>>>> origin/master-melado
 }
 
 .profile-info {
     display: flex;
     flex-direction: column;
+<<<<<<< HEAD
     padding-left: 1.25rem;
 }
 
@@ -37,11 +58,28 @@
     font-size: 1.125rem;
     color: #6C757D;
     margin-bottom: 1.875rem;
+=======
+    padding-left: 20px; 
+}
+
+.profile-info h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 5px;
+}
+
+.pet-breed {
+    font-size: 18px;
+    color: #6C757D;
+    margin-bottom: 30px;
+>>>>>>> origin/master-melado
     font-weight: 500;
 }
 
 .info-tags {
     display: flex;
+<<<<<<< HEAD
     gap: 0.938rem;
     margin-bottom: 2.188rem;
 }
@@ -52,13 +90,31 @@
     border-radius: 0.75rem;
     text-align: center;
     border: 0.063rem solid #E9ECEF;
+=======
+    gap: 15px;
+    margin-bottom: 35px;
+}
+
+.tag {
+    background-color: #F8F9FA; 
+    padding: 12px 18px;
+    border-radius: 12px;
+    text-align: center;
+    border: 1px solid #E9ECEF;
+>>>>>>> origin/master-melado
 }
 
 .tag span {
     display: block;
+<<<<<<< HEAD
     font-size: 0.813rem;
     color: #6C757D;
     margin-bottom: 0.313rem;
+=======
+    font-size: 13px;
+    color: #6C757D;
+    margin-bottom: 5px;
+>>>>>>> origin/master-melado
     font-weight: 500;
 }
 
@@ -68,30 +124,50 @@
 }
 
 .profile-info h2 {
+<<<<<<< HEAD
     font-size: 1.375rem;
     font-weight: 700;
     color: #212529;
     margin-bottom: 0.938rem;
     border-top: 0.063rem solid #E9ECEF;
     padding-top: 1.875rem;
+=======
+    font-size: 22px;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 15px;
+    border-top: 1px solid #E9ECEF;
+    padding-top: 30px;
+>>>>>>> origin/master-melado
 }
 
 .profile-info p {
     line-height: 1.7;
     color: #495057;
+<<<<<<< HEAD
     flex-grow: 1;
     margin-bottom: 1.875rem;
+=======
+    flex-grow: 1; 
+    margin-bottom: 30px; 
+>>>>>>> origin/master-melado
 }
 
 .health-info {
     display: flex;
+<<<<<<< HEAD
     gap: 1.875rem;
     margin-bottom: 2.188rem;
+=======
+    gap: 30px; 
+    margin-bottom: 35px; 
+>>>>>>> origin/master-melado
     color: #495057;
 }
 
 .health-info span {
     display: flex;
+<<<<<<< HEAD
     align-items: center;
     font-weight: 500;
     font-size: 0.938rem;
@@ -101,6 +177,17 @@
     width: 1.25rem;
     height: 1.25rem;
     margin-right: 0.625rem;
+=======
+    align-items: center; 
+    font-weight: 500;
+    font-size: 15px; 
+}
+
+.health-info img {
+    width: 20px; 
+    height: 20px;
+    margin-right: 10px; 
+>>>>>>> origin/master-melado
 }
 
 .adopt-profile-btn {
@@ -108,9 +195,15 @@
     background-color: var(--primary-color, #0D2847);
     color: white;
     border: none;
+<<<<<<< HEAD
     border-radius: 0.625rem;
     padding: 1rem;
     font-size: 1rem;
+=======
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 16px;
+>>>>>>> origin/master-melado
     font-weight: 600;
     cursor: pointer;
     display: flex;
@@ -124,7 +217,13 @@
 }
 
 .adopt-profile-btn img {
+<<<<<<< HEAD
     width: 1.25rem;
     height: 1.25rem;
     margin-right: 0.75rem;
+=======
+    width: 20px;
+    height: 20px;
+    margin-right: 12px; 
+>>>>>>> origin/master-melado
 }
