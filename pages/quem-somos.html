@@ -5,32 +5,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulário de contato</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../styles/styles.css">
 </head>
 
 <body>
-  <header id="quem-somos-header">
-    <div >
-      <img src="/assets/images/Logo-Acapra.png" alt="Logo Acapra Brusque">
+  <header id="pets-header">
+    <div class="pets-logo">
+      <a href="../index.html">
+        <img src="/assets/images/Logo-Acapra.png" alt="Logo Acapra Brusque">
+      </a>
     </div>
-    <nav class="quem-somos-navigation-header">
-      <a href="index.html">Home</a>
-      <a href="pages/pets.html">Adoção</a>
-      <a href="#">Sobre</a>
-      <a href="#">Adotar</a>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="#">Denuncie</a>
+      <a href="#">Doação</a>
+      <a href="../pages/quem-somos.html">Sobre</a>
+      <a href="../pages/pets.html" class="btn-adotar">Adotar</a>
     </nav>
   </header>
 
   <main id="main-quem-somos">
-    <h1>Quem somos</h1>
+    <h1>Sobre a associação</h1>
     <div>
-      <p>A ACAPRA – Associação Brusquense de Proteção aos Animais atua há mais de 20 anos em Brusque (SC), sempre de
+      <p>A ACAPRA é uma Associação Brusquense de Proteção aos Animais que atua há mais de 20 anos em Brusque (SC),
+        sempre de
         forma independente e sem vínculo político.
         Nosso trabalho é realizado 100% por voluntários, com dedicação e amor aos animais que mais precisam.
         Resgatamos cães e gatos vítimas de maus-tratos, abandono e situações de vulnerabilidade, oferecendo amparo,
         cuidados e a chance de um novo começo.
         Para seguir com essa missão, contamos com a solidariedade da comunidade.
-        Acompanhe nosso trabalho e ajude a transformar vidas através do Instagram: @acaprabrusquesc.</p>
+        Acompanhe nosso trabalho e ajude a transformar vidas através do Instagram <a
+          href="https://www.instagram.com/acaprabrusquesc/">@acaprabrusquesc</a> </p>
     </div>
 
     <div class="info-tags">
@@ -66,11 +74,23 @@
         Solidariedade - juntos podemos transformar a realidade dos animais.
         Educação e consciência - incentivar a comunidade a adotar práticas de proteção e respeito.</p>
     </div>
-
-    <a href="como-ajudar.html" class="action-btn">
-      Como Você Pode Ajudar
-    </a>
   </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-text">
+        <p>&copy; 2025 ACAPRA. Todos os direitos reservados.</p>
+        <p>Adote com amor.</p>
+      </div>
+      <div class="redes-sociais">
+        <a href="https://wa.me/SEUNUMERODOWHATSAPP" target="_blank">
+          <img src="../assets/icons/whatsapp-logo.svg" alt="Logo do WhatsApp">
+        </a>
+        <a href="https://www.instagram.com/acaprabrusquesc/" target="_blank">
+          <img src="../assets/icons/instagram-logo.svg" alt="Logo do Instagram">
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
