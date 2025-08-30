@@ -4,61 +4,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Acapra Brusque</title>
+    <title>ACAPRA - Conheça a Difusor</title>
+
+    <link rel="stylesheet" href="../styles/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <img src="img/Logo-Acapra.png" alt="Logo Acapra Brusque" class="logo">
-        <div class="navegacao-header">
-            <a href="quem-somos.html">Quem Somos?</a>
-            <a href="como-ajudar.html">Como Ajudar</a>
-            <a href="como-adotar.html">Como Adotar</a>
-            <a href="denuncia.html">Concientização</a>
+    <header id="pets-header">
+        <div>
+            <a href="../index.html">
+                <img src="/assets/images/Logo-Acapra.png" alt="Logo Acapra Brusque">
+            </a>
         </div>
+        <nav>
+      <a href="../index.html">Home</a>
+      <a href="#">Denuncie</a>
+      <a href="#">Doação</a>
+      <a href="../pages/quem-somos.html">Sobre</a>
+      <a href="../pages/pets.html" class="btn-adotar">Adotar</a>
+    </nav>
     </header>
-    <main class="corpo-da-pagina">
-        <img class="imagem-container" src="img/Difusor.jpeg" alt="Difusor adotado">
-        <div class="texto">
-            <p>Difusor finalmente encontrou seu lugar no mundo! 🎉 Em fevereiro de 2025, ela foi adotada por uma família
-                incrível que lhe deu um lar cheio de amor e cuidado. Depois de superar desafios e esperar por um novo
-                começo, Difusor agora desfruta de dias felizes, cheios de brincadeiras, carinhos e momentos de puro
-                aconchego.
-                Sua história é um exemplo de como a adoção pode transformar vidas. Difusor não só ganhou uma família,
-                mas também trouxe alegria e amor para o coração de quem a acolheu. Parabéns à família da Difusor por
-                abrir as portas do coração e oferecer a ela um lar onde ela pode ser feliz e amada! 💖🐾</p>
+    <main>
+        <div class="pet-profile-section">
+            <div class="container">
+                <div class="profile-card">
+                    <div class="profile-gallery">
+                        <img src="../assets/images/pets/Difusor.jpeg" alt="Maia" class="main-photo">
+                    </div>
+
+                    <div class="profile-info">
+                        <h1>Difusor</h1>
+                        <span class="pet-breed">Sem raça definida • Macho</span>
+
+                        <div class="info-tags">
+                            <div class="tag"><span>Idade</span> Jovem</div>
+                            <div class="tag"><span>Tamanho</span> Médio</div>
+                            <div class="tag"><span>Local</span> Brusque - SC</div>
+                        </div>
+
+                        <h2>Sobre o Difusor</h2>
+                        <p>
+                            Difusor finalmente encontrou seu lugar no mundo!  Em fevereiro de 2025, ela foi adotada
+                            por uma família
+                            incrível que lhe deu um lar cheio de amor e cuidado. Depois de superar desafios e esperar
+                            por um novo
+                            começo, Difusor agora desfruta de dias felizes, cheios de brincadeiras, carinhos e momentos
+                            de puro
+                            aconchego.
+                            Sua história é um exemplo de como a adoção pode transformar vidas. Difusor não só ganhou uma
+                            família,
+                            mas também trouxe alegria e amor para o coração de quem a acolheu. Parabéns à família da
+                            Difusor por
+                            abrir as portas do coração e oferecer a ela um lar onde ela pode ser feliz e amada!
+                        </p>
+
+                        <div class="health-info">
+                            <span><img src="../assets/icons/check.svg" alt="Check"> Castrada</span>
+                            <span><img src="../assets/icons/check.svg" alt="Check"> Vacinada</span>
+                        </div>
+
+                        <button class="adopt-profile-btn">
+                            <img src="../assets/icons/coracao.svg" alt="Coração"> Quero Adotar o Difusor
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-        <button></button>
     </main>
-    <footer>
-        <img src="img/Coração-pata.png" alt="Coração com pata" class="logo-footer">
-        <div class="navegacao">
-            <p style="text-decoration: underline; font-weight: bold; color: black;">Navegação</p>
-            <br>
-            <div class="navegacao-interna">
-                <a href="quem-somos.html">Quem Somos</a>
-                <br>
-                <a href="noticia.html">Notícias</a>
-            </div>
-        </div>
-        <div class="contato">
-            <p style="text-decoration: underline; font-weight: bold; color: black;">Contato</p>
-            <br>
-            <div class="contato-interno">
-                <img src="img/Logo-WhatsApp.png" alt="Logo WhatsApp">
-                <a href="tel:+55479847749433 ">(47) 984774-9433</a>
-            </div>
-        </div>
-        <div class="redes-sociais">
-            <p style="text-decoration: underline; font-weight: bold; color: black;">Redes Sociais</p>
-            <br>
-            <div class="redes-sociais-interna">
-                <img src="img/Logo-Instagram.png" alt="Logo Instagram">
-                <a href="https://www.instagram.com/acaprabrusquesc/" target="_blank">acaprabrusquesc</a>
-            </div>
-        </div>
-    </footer>
+    <footer class="footer">
+    <div class="container">
+      <div class="footer-text">
+        <p>&copy; 2025 ACAPRA. Todos os direitos reservados.</p>
+        <p>Adote com amor.</p>
+      </div>
+      <div class="redes-sociais">
+        <a href="https://wa.me/SEUNUMERODOWHATSAPP" target="_blank">
+          <img src="../assets/icons/whatsapp-logo.svg" alt="Logo do WhatsApp">
+        </a>
+        <a href="https://www.instagram.com/acaprabrusquesc/" target="_blank">
+          <img src="../assets/icons/instagram-logo.svg" alt="Logo do Instagram">
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

@@ -7,44 +7,27 @@ header {
   & img {
     height: 4rem;
   }
-}
-    .navigation-header {
-        display: flex;
-        align-items: center;
-        gap: 25px;
 
-<<<<<<< HEAD
-    }
-=======
   & nav {
     display: flex;
     align-items: center;
     gap: 25px;
->>>>>>> 0707f58d578f94e9daa60d672c61cc84cbae75cc
-
-    .navigation-header a {
-        text-decoration: none;
-        color: #001f60;
-        font-size: 1rem;
-        font-weight: 500;
-        transition: 0.3s;
+    
+    &  a {
+      text-decoration: none;
+      color: #75633b;
+      font-size: 15px;
+      font-weight: 500;
+      transition: 0.3s;
     }
 
-<<<<<<< HEAD
-    .navigation-header a:hover {
-        color: #ffd700;
+    & .navigation-header a:hover {
+      color: #ffd700;
     }
-=======
-  & a {
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-    font-weight: 500;
-    transition: 0.3s;
-  }
 
-  & a:hover {
-    color: #ffd700;
+
+    & a:hover {
+      color: #ffd700;
+    }
   }
 }
->>>>>>> 0707f58d578f94e9daa60d672c61cc84cbae75cc
