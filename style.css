@@ -7,12 +7,12 @@
     --light-bg: #F3F4F6;
 }
 
-/* Seção principal - adaptada de .pet-profile-section */
+/* Seção principal */
 .main {
     padding: 60px 0;
 }
 
-/* Card principal - adaptado de .profile-card */
+/* Card principal */
 main {
     display: block;
     background-color: #FFFFFF;
@@ -23,7 +23,7 @@ main {
     margin: 0 auto;
 }
 
-/* Título principal - adaptado de .profile-info h1 */
+/* Título principal */
 main h1 {
     font-size: 48px;
     font-weight: 700;
@@ -45,8 +45,8 @@ main h1::after {
     border-radius: 2px;
 }
 
-/* Parágrafo principal - adaptado de .profile-info p */
-main > div p {
+/* Parágrafo principal */
+main p {
     line-height: 1.6;
     color: var(--text-color);
     font-size: 16px;
@@ -58,7 +58,7 @@ main > div p {
     border-left: 4px solid var(--primary-color);
 }
 
-/* Subtítulo - adaptado de .profile-info h2 */
+/* Subtítulo */
 main h2 {
     font-size: 32px;
     font-weight: 600;
@@ -74,7 +74,7 @@ main h2::before {
     margin-right: 10px;
 }
 
-/* Seção MVV - adaptada de .profile-gallery e .thumbnail-grid */
+/* Seção MVV */
 .mvv {
     display: grid;
     grid-template-columns: 1fr;
@@ -82,7 +82,7 @@ main h2::before {
     margin-top: 30px;
 }
 
-/* Cards MVV - adaptados de .tag */
+/* Cards MVV */
 .mvv p {
     background-color: var(--light-bg);
     padding: 25px;
@@ -157,7 +157,7 @@ main h2::before {
 
 .tag span {
     display: block;
-    font-size: 12px;
+    font-size: 19px;
     color: #777;
     margin-bottom: 4px;
     font-weight: 600;
@@ -193,59 +193,4 @@ main h2::before {
     background-color: var(--secondary-color);
     transform: translateY(-2px);
     box-shadow: 0 8px 25px rgba(44, 90, 160, 0.3);
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-    main {
-        padding: 20px;
-        margin: 10px;
-    }
-    
-    main h1 {
-        font-size: 32px;
-    }
-    
-    main h2 {
-        font-size: 24px;
-    }
-    
-    .mvv {
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
-    
-    .mvv p {
-        padding: 20px;
-    }
-    
-    .info-tags {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .tag {
-        width: 100%;
-        max-width: 300px;
-    }
-}
-
-@media (max-width: 480px) {
-    main h1 {
-        font-size: 28px;
-    }
-    
-    main h2 {
-        font-size: 20px;
-    }
-    
-    main > div p {
-        padding: 15px;
-        font-size: 14px;
-    }
-    
-    .mvv p {
-        padding: 15px;
-        font-size: 14px;
-    }
 }
