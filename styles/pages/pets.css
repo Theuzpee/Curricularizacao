@@ -1,4 +1,25 @@
+#pets-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    background-color: white;
+}
+    & .pets-logo img {
+        height: 4rem;
+        
+    & .pets-navigation-header a {
+        text-decoration: none;
+        color: #001f60;
+        font-size: 1rem;
+        font-weight: 500;
+        transition: 0.3s;
+    }
 
+    & .pets-navigation-header a:hover {
+        color: #ffd700;
+    }
+}
 
 #pets-main {
     & .pets-section {
@@ -230,4 +251,9 @@
         margin-top: 50px;
         font-weight: 600;
     }
+
+    & a {
+        text-decoration: none;
+    }
+
 }
