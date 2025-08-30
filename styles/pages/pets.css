@@ -230,4 +230,9 @@
         margin-top: 50px;
         font-weight: 600;
     }
+
+    & a {
+        text-decoration: none;
+    }
+
 }

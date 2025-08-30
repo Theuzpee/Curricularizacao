@@ -13,7 +13,6 @@ header {
     align-items: center;
     gap: 25px;
 
-
     & .navigation-header a:hover {
       color: #ffd700;
     }
