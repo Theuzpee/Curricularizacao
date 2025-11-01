@@ -6,9 +6,9 @@
 }
 
 .footer .container {
-    max-width: 1200px; /* Adiciona um limite de largura para o conteúdo */
-    margin: 0 auto; /* Centraliza o container */
-    padding: 0 20px; /* Adiciona padding nas laterais para telas menores */
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
     display: flex;
     justify-content: space-between; 
     align-items: center;           
